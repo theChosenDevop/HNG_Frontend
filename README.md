@@ -32,5 +32,4 @@ Installation
 
 Clone this repository:
 
-git clone https://github.com/theChosenDevop/HNG_Frontend
-
+git clone https://github.com/theChosenDevop/HNG_Frontend.git
