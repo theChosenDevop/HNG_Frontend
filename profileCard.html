@@ -1,0 +1,61 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Profile Card</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="imageContainer">
+        <img data-testid="profilePicture" src="./73804.jpg" alt="" />
+      </div>
+      <div class="cardHeader">
+        <h3 data-testid="fullName">Oluwatobi Adesanya</h3>
+        <h3 data-testid="jobTitle">Software Engineer</h3>
+      </div>
+      <p data-testid="shortBio">
+        A skilled software engineer with 2+ years of experience in full-stack
+        development, specializing in HTML, JavaScript, Node.js, and cloud
+        technologies. Passionate about building scalable applications and
+        optimizing system performance. Also Proficient in frontend and backend
+        frameworks, API design, and database management. Strong problem-solving
+        skills with a keen eye for detail.
+      </p>
+      <div class="cardHeader">
+        <p data-testid="currentLocation">Lagos, Nigeria</p>
+        <a href="mailto:tobbey.adesanya@gmail.com" data-testid="emailAddress"
+          >Email</a
+        >
+      </div>
+      <ul data-testid="socialLinks">
+        <li>
+          <a href="https://github.com/theChosenDevop" target="_blank" rel="noreferrer noopener"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://facebook.com" target="_blank" rel="noreferrer noopener"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/theChosenDevop" target="_blank" rel="noreferrer noopener"
+            ><i class="fa-brands fa-x-twitter"></i
+          ></a>
+        </li>
+      </ul>
+      <div class="cardHeader">
+        <p data-testid="currentTimeUTC" id="time"></p>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
